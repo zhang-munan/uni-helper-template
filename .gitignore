@@ -24,6 +24,6 @@ dist
 pages.json
 manifest.json
 
-auto-import.d.ts
+auto-imports.d.ts
 components.d.ts
 uni-env.d.ts

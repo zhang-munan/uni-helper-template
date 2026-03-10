@@ -149,7 +149,7 @@ function main() {
   const gitignorePath = path.join(srcPath, '.gitignore')
 
   // 默认忽略的模式
-  const defaultIgnore = ['.git']
+  const defaultIgnore = ['.git', 'copy-project.cjs']
 
   // 解析 .gitignore
   const gitignorePatterns = parseGitignore(gitignorePath)

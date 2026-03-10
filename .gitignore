@@ -23,3 +23,7 @@ dist
 # unh
 pages.json
 manifest.json
+
+auto-import.d.ts
+components.d.ts
+uni-env.d.ts

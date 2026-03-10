@@ -1,0 +1,35 @@
+.page-loading,
+.page-empty {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 150px);
+
+  .page-loading-img {
+    width: 50px;
+    height: 0;
+  }
+}
+
+.page-empty {
+  .page-empty-img {
+    width: 150px;
+    height: 0;
+  }
+}
+
+.send-fixed-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* #ifdef H5 */
+  bottom: 80px;
+  /* #endif */
+  .send-fixed-btn-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px #c5c5c5;
+  }
+}

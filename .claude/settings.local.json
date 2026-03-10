@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(ui-ux-pro-max)",
+      "Bash(python:*)",
+      "Bash(py:*)",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(pnpm lint:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
